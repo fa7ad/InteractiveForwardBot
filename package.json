@@ -11,6 +11,9 @@
     "email": "hasin@leevio.com"
   },
   "dependencies": {
+    "chalk": "^1.1.0",
+    "coffee-script": "^1.9.3",
+    "cson": "^3.0.1",
     "sleep": "*"
   },
   "bugs": {
@@ -22,7 +25,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo What are you trying to test?",
-    "start": "node main.js"
+    "start": "coffee main.coffee"
   },
   "keywords": [
     "ifb",
