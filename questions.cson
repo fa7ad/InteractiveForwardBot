@@ -6,6 +6,10 @@ profanity: [
   "you're silly"
   "screw you"
   "wtf"
+  "stupid"
+  "idiot"
+  "bitch"
+  "exit"
 ]
 profanityexit: [
   "Oh oops! Let's talk another time"
@@ -99,7 +103,7 @@ questions: [
         q: "Perfect! Take a deep breath and good bye"
   }
   {
-    q: "Are you in front of a computer? Because you need to write some code :)"
+    q: "Are you in front of a computer? Because you need to write some code..."
     no: [
       "mobile"
       "no"
