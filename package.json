@@ -1,15 +1,21 @@
 {
   "name": "interactive-forward-bot",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/hasinhayder/InteractiveForwardBot.git"
-  },
+  "repository": "hasinhayder/InteractiveForwardBot",
+  "repository": "fa7ad/InteractiveForwardBot",
   "description": "Interactive Forward Bot. Ask questions in a sequential order with lots of funs included!",
   "author": {
     "name": "Hasin Hayder",
-    "email": "hasin@leevio.com"
+    "email": "hasin@leevio.com",
+    "url": "http://hasin.me"
   },
+  "contributors": [
+    {
+      "name": "Fahad Hossain",
+      "email": "8bit.demoncoder@gmail.com",
+      "url": "http://thewebaholic.ml"
+    }
+  ],
   "dependencies": {
     "chalk": "^1.1.0",
     "coffee-script": "^1.9.3",
@@ -21,9 +27,8 @@
     "url": "https://github.com/hasinhayder/InteractiveForwardBot/issues"
   },
   "homepage": "https://github.com/hasinhayder/InteractiveForwardBot#readme",
-  "version": "1.0.0",
-  "main": "main.js",
-  "devDependencies": {},
+  "version": "1.1.0",
+  "main": "main.coffee",
   "scripts": {
     "test": "echo What are you trying to test?",
     "start": "coffee main.coffee"

@@ -25,7 +25,7 @@ questions: [
     q: "Hey, How are you?"
     link: [
       "how"
-      "not bad"
+      "what"
       "you"
       "wbu"
     ]
@@ -39,13 +39,17 @@ questions: [
       q: "Opps! Well, then take a break and let's talk another time"
   }
   {
-    q: "Nice! So how is the weather?"
+    q: "Nice! So, how is the weather?"
     link: [
       "how"
+      "there"
     ]
     linkans: "Hmm, weather is nice around here. Mild and breezy!"
     no: [
       "bad"
+      "terrible"
+      "hot"
+      "humid"
     ]
     noq:
       q: "Looks like it's only me who's having some funtime with weather.
@@ -54,6 +58,8 @@ questions: [
         "sure"
         "yes"
         "ha"
+        "yeah"
+        "oui"
       ]
       linkans: "It seems that you're in a good mood, ha?"
       no: [
@@ -69,11 +75,16 @@ questions: [
           "yes"
           "sure"
           "why not"
+          "okay"
+          "k"
+          "ok"
         ]
         linkans: "Perfect. Let's move on!"
         no: [
           "no"
           "nah"
+          "nope"
+          "dont"
         ]
         noq:
           q: "Alright bye!"
@@ -83,6 +94,11 @@ questions: [
      will be a good fit for you. Are you ok with that?"
     link: [
       "yes"
+      "yeah"
+      "positive"
+      "absolutely"
+      "okay"
+      "ok"
     ]
     linkans: "Perfect! Let's proceed."
     no: [
@@ -90,6 +106,7 @@ questions: [
       "not"
       "maybe"
       "seriously"
+      "nope"
     ]
     noq:
       q: "I think we should talk another time, What do you think?"
